@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/dotpvrlt/iebconvention.org/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
