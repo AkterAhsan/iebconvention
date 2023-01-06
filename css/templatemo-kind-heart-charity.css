@@ -175,8 +175,8 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-bg {
@@ -559,8 +559,8 @@ strong {
   HERO & HERO SLIDE         
 -----------------------------------------*/
 .hero-section-full-height {
-  height: 680px;
-  min-height: 680px;
+  /* height: 680px; */
+  /* min-height: 680px; */
   position: relative;
 }
 
@@ -570,8 +570,8 @@ strong {
 }
 
 #hero-slide .carousel-item {
-  height: 680px;
-  min-height: 680px;
+  /* height: 680px; */
+  /* min-height: 680px; */
 }
 
 #hero-slide .carousel-caption {
@@ -583,15 +583,15 @@ strong {
   right: 0;
   left: auto;
   text-align: right;
-  min-width: 680px;
-  min-height: 680px;
+  /* min-width: 680px;
+  min-height: 680px; */
   padding: 100px 100px 50px 100px;
 }
 
 .carousel-image {
   display: block;
   width: 100%;
-  min-height: 680px;
+  /* min-height: 680px; */
 }
 
 #hero-slide .carousel-indicators-wrap {
@@ -1587,7 +1587,7 @@ blockquote::before {
   .hero-section-full-height,
   #hero-slide .carousel-item,
   .carousel-image {
-    min-height: 520px;
+    /* min-height: 520px; */
   }
 
   #hero-slide .carousel-caption {
