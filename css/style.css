@@ -377,7 +377,7 @@ strong {
 }
 
 .logo {
-  width: 80px;
+  width: 180px;
   height: auto;
 }
 
@@ -423,15 +423,15 @@ strong {
 }
 
 .dropdown-menu li:last-child .dropdown-item {
-  padding-top: 0;
+  padding-top: 10px;
 }
 
 .dropdown-item.active, 
 .dropdown-item:active,
 .dropdown-item:focus, 
 .dropdown-item:hover {
-  background: transparent;
-  color: var(--primary-color);
+  background: var(--primary-color);
+  color: #ffffff;
 }
 
 .dropdown-toggle::after {
@@ -685,7 +685,7 @@ strong {
 }
 
 .custom-text-block {
-  padding: 60px 40px;
+  padding: 05px 40px;
 }
 
 
