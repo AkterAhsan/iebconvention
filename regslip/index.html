@@ -1,0 +1,203 @@
+<link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="bootstrap.min.js"></script>
+<style>
+        .header {
+			background: #00853A;
+            min-width: 600px;
+            max-width: 600px;
+			position: relative;
+			box-shadow: 0 1px 21px #acacac;
+            padding: 0;
+		}
+        .title h2 {
+            font-weight: 800;
+            font-size: 33px;
+            color: #ffffff;
+            margin: 0;
+            line-height: 1;
+        }
+        .title h3 {
+            font-weight: 100;
+            font-size: 44px;
+            color: #ffffff;
+            margin: 0;
+            
+        }
+		.receipt-main {
+			background: #ffffff;
+            min-width: 600px;
+            max-width: 600px;
+            min-height:750px;
+            max-height:750px;
+			position: relative;
+			box-shadow: 0 10px 21px #acacac;
+			color: #333333;
+			font-family: open sans;
+		}
+		.receipt-main thead {
+			background: #5b37ff none repeat scroll 0 0;
+		}
+		.receipt-main thead th {
+			color:#fff;
+		}
+		.receipt-right h3 {
+			font-size: 25px;
+			font-weight: 400;
+			margin: 0 0 10px 0;
+		}
+		.receipt-main td {
+			padding: 5px 20px !important;
+		}
+		.receipt-main th {
+			padding: 5px 20px !important;
+		}
+		.receipt-main td h2 {
+			font-size: 20px;
+			font-weight: 900;
+			margin: 0;
+		}
+		.receipt-header-mid {
+			margin: 10px 0;
+			overflow: hidden;
+            display: flex;
+		}
+        .stripe {
+        height: 35px;
+        margin: 0 0 1rem 0;
+        background: linear-gradient(
+            to right, 
+            #009C3D,
+            #009C3D 50%,
+            rgb(33, 203, 255) 50%,
+            rgb(4, 0, 255) 68%,
+            rgb(255, 200, 18) 60%,
+            rgb(255, 38, 0) 80%,
+            rgb(54, 175, 255) 80%,
+            rgb(76, 0, 255)
+        );}
+        #container {
+			background-color: #dcdcdc;
+		}
+</style>
+
+<div class="container">
+	<div class="row justify-content-center align-items-center" >
+        <div class="header">
+            <div class="receipt-header receipt-header-mid">
+                <div class="col-md-4">
+                    <div class="receipt-left text-center">
+                        <img class="img-responsive" alt="" src="logo.png" style="width: 100px;">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="title">
+                        <h2>IEB 60<sup>th</sup> CONVENTION</up></h2>
+                        <h3>REGISTRATION SLIP</h3>
+                    </div>
+                </div>
+            </div>
+        </div>    
+	</div>
+
+    <div class="row justify-content-center align-items-center">
+        <div class="receipt-main">
+                <div class="receipt-header receipt-header-mid">
+                    <div class="col-md-4">
+                        <div class="receipt-left text-center">
+                            <img class="img-responsive" alt="" src="check.png" style="width: 80px; border-radius: 43px;">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="receipt-right">
+                            <h3>Your Registration Confirmed</h3>
+                            <h3>Registration ID: <b style="color: #00853A;">RCF321654</b></h3>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td class="col-md-6"><b>Name: </b>Engr. Md. Akter Ahsan</td>
+                            <td class="col-md-6"><b>Membership No: </b>F/01234</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-6"><b>Mobile: </b>01764175327</td>
+                            <td class="col-md-6"><b>Email: </b>ah267810@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-6"><b>Centre: </b>Dhaka</td>
+                            <td class="col-md-6"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            <div>
+
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th>Item Description</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-md-9">Registration Fee (Compulsory)</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 2000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">Lunch (25-Feb-2023)</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 200.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">Lunch (26-Feb-2023)</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 200.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">Lunch (27-Feb-2023)</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 200.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">Dinner (Single/Couple)</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 1500.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">Ladies Bag</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 2000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">IEB Tie</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 800.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">IEB Blazer</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 6000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">Technical Tour</td>
+                            <td class="col-md-3"><i class="fa-regular fa-bangladeshi-taka-sign"></i> 2000.00</td>
+                        </tr>
+                        <tr>
+                           
+                            <td class="text-right text-bg-light"><h2>Total Paid:</h2></td>
+                            <td class="text-left text-bg-success"><h2><strong><i class="fa-regular fa-bangladeshi-taka-sign"></i> 16500.00</strong></h2></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="row">
+                <div class="receipt-header receipt-footer">
+                    <div class="receipt-left text-center">
+                        <img class="img-responsive" alt="" src="barcode.jpg" style="width: 250px;">
+                        <p style="font-style: italic;"> Important! <b>Keep This Document</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="stripe">
+                </div>
+            </div>
+        </div>    
+	</div>
+</div>
